@@ -221,6 +221,7 @@
     left: 10px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
   }
 
   .navigation-list {
