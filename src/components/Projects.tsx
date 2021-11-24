@@ -8,6 +8,7 @@ import weatherImg from "../assets/project-screenshots/weather-app.png";
 import calculatorImg from "../assets/project-screenshots/calculator.png";
 import etchasketchImg from "../assets/project-screenshots/etch-a-sketch.png";
 import webShelfImg from "../assets/project-screenshots/web-shelf.png";
+import googleCloneImg from "../assets/project-screenshots/google-clone.png";
 import rockPaperScissorsImg from "../assets/project-screenshots/rock-paper-scissors.png";
 
 const Projects = () => {
@@ -66,6 +67,12 @@ const Projects = () => {
         projectTitle="My Web Shelf"
         githubLink="https://github.com/GokhanTurgut/library"
         urlLink="https://gokhanturgut.github.io/library/"
+      />
+      <ProjectItem
+        imageSrc={googleCloneImg}
+        projectTitle="Functional Google Clone"
+        githubLink="https://github.com/GokhanTurgut/search"
+        urlLink="https://gokhanturgut.github.io/search/"
       />
       <ProjectItem
         imageSrc={rockPaperScissorsImg}
