@@ -2,4 +2,4 @@
 
 Built with ReactJS with TypeScript.
 
-## [Link](https://frosty-agnesi-835880.netlify.app/)
+## [gturgut.dev](https://gturgut.dev)
