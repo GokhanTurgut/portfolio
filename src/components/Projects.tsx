@@ -1,15 +1,15 @@
 import ProjectItem from "./ProjectItem";
-import foodOrderImg from "../assets/project-screenshots/food-order.png";
-import pirateBattleImg from "../assets/project-screenshots/pirate-battle.png";
-import myTasksImg from "../assets/project-screenshots/myTasks.png";
-import tictactoeImg from "../assets/project-screenshots/tictactoe.png";
-import restaurantImg from "../assets/project-screenshots/restaurant-page.png";
-import weatherImg from "../assets/project-screenshots/weather-app.png";
-import calculatorImg from "../assets/project-screenshots/calculator.png";
-import etchasketchImg from "../assets/project-screenshots/etch-a-sketch.png";
-import webShelfImg from "../assets/project-screenshots/web-shelf.png";
-import googleCloneImg from "../assets/project-screenshots/google-clone.png";
-import rockPaperScissorsImg from "../assets/project-screenshots/rock-paper-scissors.png";
+import foodOrderImg from "../assets/project-screenshots/food-order.webp";
+import pirateBattleImg from "../assets/project-screenshots/pirate-battle.webp";
+import myTasksImg from "../assets/project-screenshots/myTasks.webp";
+import tictactoeImg from "../assets/project-screenshots/tictactoe.webp";
+import restaurantImg from "../assets/project-screenshots/restaurant-page.webp";
+import weatherImg from "../assets/project-screenshots/weather-app.webp";
+import calculatorImg from "../assets/project-screenshots/calculator.webp";
+import etchasketchImg from "../assets/project-screenshots/etch-a-sketch.webp";
+import webShelfImg from "../assets/project-screenshots/web-shelf.webp";
+import googleCloneImg from "../assets/project-screenshots/google-clone.webp";
+import rockPaperScissorsImg from "../assets/project-screenshots/rock-paper-scissors.webp";
 
 const Projects = () => {
   return (

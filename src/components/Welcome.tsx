@@ -1,4 +1,4 @@
-import picture from "../assets/picture.jpg";
+import picture from "../assets/picture.webp";
 
 const Welcome = () => {
   return (
