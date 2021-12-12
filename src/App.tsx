@@ -30,7 +30,10 @@ function App() {
     <div className="page-container">
       <Header pageHeader={welcomePageShown} />
       <main className="main-container">
-        <NavigationBtn onClick={navigationToggleHandler} />
+        <NavigationBtn
+          onClick={navigationToggleHandler}
+          navState={navigationShown}
+        />
         <Navigation
           onWelcome={welcomeNavigationHandler}
           onProjects={projectsNavigationHandler}

@@ -54,6 +54,7 @@
 }
 
 .navigation-list {
+  background-color: #0b0b0f;
   text-decoration: none;
   list-style: none;
   margin: 4rem 0rem;
@@ -151,7 +152,7 @@
   border: 1px solid #ffc600;
   padding: 10px;
   border-radius: 20px;
-  animation: 1.5s ease-in-out 1 slideFromLeft;
+  animation: 1.5s ease-in-out 1 slideFromRight;
 }
 
 .project-item-container > img {
@@ -193,19 +194,20 @@
   gap: 0.7rem;
 }
 
-.footer-container > h4 {
+.footer-container > p {
   font-family: "Sacramento", cursive;
   font-size: 1.5rem;
+  font-weight: bolder;
 }
 
-.footer-container > p {
+.footer-container > small {
   font-size: 1rem;
   font-weight: 700;
 }
 
 /* Animation */
 
-@keyframes slideFromLeft {
+@keyframes slideFromRight {
   0% {
     transform: translateX(300%);
   }
@@ -213,6 +215,8 @@
     transform: translateX(0);
   }
 }
+
+/* Responsive */
 
 @media (max-width: 700px) {
   .hamburger-button {
@@ -226,7 +230,8 @@
   }
 
   .navigation-list {
-    display: none;
+    position: absolute;
+    height: 500px;
     transform: translateX(-200px);
   }
 
