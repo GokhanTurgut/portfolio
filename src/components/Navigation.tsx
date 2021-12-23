@@ -24,7 +24,7 @@ const Navigation = (props: {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/g%C3%B6khan-turgut-405835226"
+            href="https://www.linkedin.com/in/g-turgut"
             target="_blank"
             rel="noreferrer"
           >
