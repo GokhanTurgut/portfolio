@@ -3,6 +3,7 @@ import foodOrderImg from "../assets/project-screenshots/food-order.webp";
 import pirateBattleImg from "../assets/project-screenshots/pirate-battle.webp";
 import myTasksImg from "../assets/project-screenshots/myTasks.webp";
 import tictactoeImg from "../assets/project-screenshots/tictactoe.webp";
+import puzzleGameImg from "../assets/project-screenshots/puzzle-game.webp";
 import restaurantImg from "../assets/project-screenshots/restaurant-page.webp";
 import weatherImg from "../assets/project-screenshots/weather-app.webp";
 import calculatorImg from "../assets/project-screenshots/calculator.webp";
@@ -55,6 +56,12 @@ const Projects = () => {
         projectTitle="Calculator"
         githubLink="https://github.com/GokhanTurgut/calculator"
         urlLink="https://gokhanturgut.github.io/calculator/"
+      />
+      <ProjectItem
+        imageSrc={puzzleGameImg}
+        projectTitle="Puzzle Game"
+        githubLink="https://github.com/GokhanTurgut/puzzle-game"
+        urlLink="https://gokhanturgut.github.io/puzzle-game/"
       />
       <ProjectItem
         imageSrc={etchasketchImg}
