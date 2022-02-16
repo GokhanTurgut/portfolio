@@ -71,11 +71,12 @@
 }
 
 a:visited {
-  color: inherit;
+  color: white;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .navigation-list > li {
