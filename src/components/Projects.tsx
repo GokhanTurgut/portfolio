@@ -1,4 +1,5 @@
 import ProjectItem from "./ProjectItem";
+import movieLoversImg from "../assets/project-screenshots/movie-lovers.webp";
 import foodOrderImg from "../assets/project-screenshots/food-order.webp";
 import pirateBattleImg from "../assets/project-screenshots/pirate-battle.webp";
 import myTasksImg from "../assets/project-screenshots/myTasks.webp";
@@ -15,6 +16,12 @@ import rockPaperScissorsImg from "../assets/project-screenshots/rock-paper-sciss
 const Projects = () => {
   return (
     <div className="projects-container">
+      <ProjectItem
+        imageSrc={movieLoversImg}
+        projectTitle="Movie Lovers"
+        githubLink="https://github.com/GokhanTurgut/movie-lovers"
+        urlLink="https://hopeful-poitras-d26fa4.netlify.app/"
+      />
       <ProjectItem
         imageSrc={foodOrderImg}
         projectTitle="Turgut Pizzaria"
