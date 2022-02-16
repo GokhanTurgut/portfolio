@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 
 const Header = () => {
   let location = useLocation();
@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <div className="header-container">
-      <a href="./">GT</a>
+      <Link to="/">GT</Link>
       <h2>{pageHeader}</h2>
     </div>
   );

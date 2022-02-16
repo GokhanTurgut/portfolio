@@ -1,7 +1,9 @@
 import ProjectItem from "./ProjectItem";
+import restApiImg from "../assets/project-screenshots/rest-api.webp";
 import movieLoversImg from "../assets/project-screenshots/movie-lovers.webp";
 import foodOrderImg from "../assets/project-screenshots/food-order.webp";
 import pirateBattleImg from "../assets/project-screenshots/pirate-battle.webp";
+import gustoBlogsImg from "../assets/project-screenshots/gusto-blogs.webp";
 import myTasksImg from "../assets/project-screenshots/myTasks.webp";
 import tictactoeImg from "../assets/project-screenshots/tictactoe.webp";
 import puzzleGameImg from "../assets/project-screenshots/puzzle-game.webp";
@@ -35,10 +37,22 @@ const Projects = () => {
         urlLink="https://gokhanturgut.github.io/battleship/"
       />
       <ProjectItem
+        imageSrc={gustoBlogsImg}
+        projectTitle="Gusto Blogs"
+        githubLink="https://github.com/GokhanTurgut/blog-ssr-typeorm"
+        urlLink="https://gusto-blogs-typeorm.herokuapp.com/"
+      />
+      <ProjectItem
         imageSrc={myTasksImg}
         projectTitle="My Tasks"
         githubLink="https://github.com/GokhanTurgut/todo-list"
         urlLink="https://gokhanturgut.github.io/todo-list/"
+      />
+      <ProjectItem
+        imageSrc={restApiImg}
+        projectTitle="Todo Rest API"
+        githubLink="https://github.com/GokhanTurgut/todo-rest-api"
+        urlLink="https://gokhan-todo-rest-api.herokuapp.com/"
       />
       <ProjectItem
         imageSrc={tictactoeImg}
