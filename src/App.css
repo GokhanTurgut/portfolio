@@ -165,7 +165,7 @@ a:visited {
 
 .project-item-container > img {
   width: 350px;
-  height: auto;
+  height: 170px;
   transition: transform 0.3s ease-in-out;
 }
 
