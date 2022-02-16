@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Outlet, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Header from "./components/Header";
@@ -9,16 +10,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 function App() {
-  const [welcomePageShown, setWelcomePageShown] = useState(true);
   const [navigationShown, setNavigationShown] = useState(false);
-
-  function welcomeNavigationHandler() {
-    setWelcomePageShown(true);
-  }
-
-  function projectsNavigationHandler() {
-    setWelcomePageShown(false);
-  }
 
   function navigationToggleHandler() {
     setNavigationShown((state) => {
@@ -28,19 +20,18 @@ function App() {
 
   return (
     <div className="page-container">
-      <Header pageHeader={welcomePageShown} />
+      <Header />
       <main className="main-container">
         <NavigationBtn
           onClick={navigationToggleHandler}
           navState={navigationShown}
         />
-        <Navigation
-          onWelcome={welcomeNavigationHandler}
-          onProjects={projectsNavigationHandler}
-          toggleClass={navigationShown}
-        />
-        {welcomePageShown && <Welcome />}
-        {!welcomePageShown && <Projects />}
+        <Navigation toggleClass={navigationShown} />
+        <Routes>
+          <Route path="/" element={<Welcome />} />
+          <Route path="projects" element={<Projects />} />
+        </Routes>
+        <Outlet />
       </main>
       <Footer />
     </div>
